@@ -1,0 +1,16 @@
+<html>
+
+<body>
+  <div id="irccloud"></div>
+
+  <script src="bower_components/ilanguage-cloud/dist/ilanguage-cloud.min.js"></script>
+ 
+  <script>
+    var ircCloud = new iLanguageCloud({
+      element: "irccloud",
+      text: "screen -S irc irssi /connect irc.freenode.net /nick ... /join ... /lastlog -window N jjjohnny_"
+    }).render();
+  </script>
+
+</body>
+</html>
